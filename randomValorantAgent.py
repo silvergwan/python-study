@@ -1,5 +1,7 @@
+# 랜덤 모듈 임포트
 import random
 
+# 발로란트 전 요원 리스트
 agents = [
     "게코",
     "네온",
@@ -32,6 +34,8 @@ agents = [
     "하버",
 ]
 
+# 전 요원 리스트에서 하나 뽑기
 random_agent = random.choice(agents)
 
+# 출력
 print(random_agent)
